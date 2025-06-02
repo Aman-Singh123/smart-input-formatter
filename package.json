@@ -1,0 +1,33 @@
+{
+  "name": "smart-form-utils",
+  "version": "1.0.0",
+  "description": "Smart form helpers: validate and format user input like credit cards, phone numbers, Aadhaar, and more.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "validator",
+    "formatter",
+    "form-utils",
+    "input-validation",
+    "input-formatting",
+    "credit-card",
+    "phone",
+    "iban",
+    "aadhaar",
+    "pan",
+    "gst",
+    "javascript"
+  ],
+  "author": "Aman Singh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aman-Singh123/smart-form-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aman-Singh123/smart-form-utils/issues"
+  },
+  "homepage": "https://github.com/Aman-Singh123/smart-form-utils#readme"
+}
