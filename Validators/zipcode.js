@@ -9,7 +9,7 @@ function isFakePattern(zip) {
     return false;
 }
 
-function validateZipCode(zip, country) {
+module.exports = function validateZipCode(zip, country) {
     let regex;
 
     switch (country.toLowerCase()) {
@@ -41,4 +41,3 @@ function validateZipCode(zip, country) {
     return true;
 }
 
-console.log(validateZipCode('987654' , 'in'));
