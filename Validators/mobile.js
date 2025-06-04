@@ -13,4 +13,6 @@ module.exports = function validatePhone(number, countryCode) {
     return pattern ? pattern.test(number) : false;
 }
 
+
+
  
