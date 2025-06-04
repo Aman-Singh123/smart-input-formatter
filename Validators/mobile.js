@@ -1,6 +1,6 @@
 // validators/phone.js
 
-function validatePhone(number, countryCode) {
+module.exports = function validatePhone(number, countryCode) {
     const patterns = {
         IN: /^[6-9]\d{9}$/,                     // India
         US: /^([2-9][0-9]{2})[- ]?[2-9][0-9]{2}[- ]?[0-9]{4}$/, // USA
@@ -13,5 +13,4 @@ function validatePhone(number, countryCode) {
     return pattern ? pattern.test(number) : false;
 }
 
-module.exports = { validatePhone };
  

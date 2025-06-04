@@ -1,4 +1,4 @@
-function validatePanCard(pan) {
+module.exports = function validatePanCard(pan) {
     if (typeof pan !== 'string' ) return false;
 
     const str = pan.trim().toUpperCase();
@@ -14,5 +14,3 @@ function validatePanCard(pan) {
 
     return true;
 };
-
-console.log(validatePanCard("MZOPS4567N"));

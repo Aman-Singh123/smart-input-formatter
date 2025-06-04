@@ -1,1 +1,5 @@
-console.log("How are you")
+const validators = require('./Validators/index')
+
+module.exports = {
+    ...validators
+}
