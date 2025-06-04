@@ -1,4 +1,4 @@
-module.exports = function validatePanCard(pan) {
+export default function validatePanCard(pan) {
     if (typeof pan !== 'string' ) return false;
 
     const str = pan.trim().toUpperCase();

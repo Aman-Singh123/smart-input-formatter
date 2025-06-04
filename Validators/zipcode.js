@@ -9,9 +9,8 @@ function isFakePattern(zip) {
     return false;
 }
 
-module.exports = function validateZipCode(zip, country) {
+export default function validateZipCode(zip, country) {
     let regex;
-
     switch (country.toLowerCase()) {
         case 'us':
             regex = /^\d{5}(-\d{4})?$/;

@@ -1,4 +1,4 @@
-module.exports = function formatCurrency(amount, currency = 'INR', locale = 'en-IN') {
+export default   function formatCurrency(amount, currency = 'INR', locale = 'en-IN') {
     if (typeof amount !== 'number') {
         amount = parseFloat(amount);
     }

@@ -1,4 +1,4 @@
-module.exports = function validateStrongPassword(password, minLength = 8) {
+export default function validateStrongPassword(password, minLength = 8) {
     if (typeof password !== 'string') return false;
     if (password.length < minLength) return false;
 

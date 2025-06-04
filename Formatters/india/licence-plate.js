@@ -1,4 +1,4 @@
-module.exports = function formatLicensePlate(input) {
+export default function formatLicensePlate(input) {
     const cleaned = input.replace(/[^A-Z0-9]/gi, '').toUpperCase();
 
     // Validate the cleaned string

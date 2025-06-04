@@ -1,4 +1,4 @@
-module.exports = function formatCreditCard(input) {
+export default function formatCreditCard(input) {
     const digits = input.replace(/\D/g, '');
 
     // Handle American Express (15 digits, format 4-6-5)

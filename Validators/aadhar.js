@@ -1,4 +1,4 @@
-module.exports = function validateAadhaar(aadhaar) {
+export default function validateAadhaar(aadhaar) {
     if (typeof aadhaar !== 'string') return false;
 
     const str = aadhaar.replace(/\s+/g, ''); // remove spaces

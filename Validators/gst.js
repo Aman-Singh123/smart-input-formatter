@@ -1,4 +1,4 @@
-module.exports =  function validateGST(gst) {
+export default  function validateGST(gst) {
     if (typeof gst !== 'string') return false;
     const str = gst.trim().toUpperCase();
 

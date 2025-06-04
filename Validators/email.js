@@ -1,4 +1,4 @@
-module.exports = function validateEmail(email) {
+export default function validateEmail(email) {
     if (typeof email !== 'string') return false;
     const str = email.trim();
 
